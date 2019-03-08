@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   key1: 'value1y'
-  key3: 'value3y'
+  key4: 'value4y'
 kind: ConfigMap
 metadata:
   name: example-repository-configmap
