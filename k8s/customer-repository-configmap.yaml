@@ -1,7 +1,8 @@
 apiVersion: v1
 data:
-  key11: 'value17'
-  key22: 'value27'
+  key11: 'value111'
+  key22: 'value222'
+  key33: 'hey'
 kind: ConfigMap
 metadata:
   name: customer-repository-configmap
