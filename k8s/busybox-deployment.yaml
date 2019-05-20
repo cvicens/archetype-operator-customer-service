@@ -25,11 +25,5 @@ spec:
         volumeMounts:
         - name: content
           mountPath: /data
-      - name: nginx
-        image: nginx
-        volumeMounts:
-          - name: content
-            mountPath: /usr/share/nginx/html
-            readOnly: true
       volumes:
       - name: content
