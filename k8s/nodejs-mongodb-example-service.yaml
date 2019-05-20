@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    description: Exposes and load balances the application pods
+    service.alpha.openshift.io/dependencies: '[{"name": "mongodb", "kind": "Service"}]'
+  labels:
+    app: nodejs-mongodb-example
+    template: nodejs-mongodb-example
+    template.openshift.io/template-instance-owner: e6186f20-7af0-11e9-9dcf-023b1fa5415e
+  name: nodejs-mongodb-example
+spec:
+  ports:
+    - name: web
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    name: nodejs-mongodb-example
+  sessionAffinity: None
+  type: ClusterIP
