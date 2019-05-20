@@ -4,8 +4,6 @@ metadata:
   annotations:
     description: Defines how to deploy the application server
     template.alpha.openshift.io/wait-for-ready: 'true'
-  creationTimestamp: '2019-05-20T11:17:48Z'
-  generation: 1
   labels:
     app: nodejs-mongodb-example
     template: nodejs-mongodb-example
