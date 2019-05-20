@@ -22,6 +22,9 @@ spec:
       - name: busybox
         image: busybox
         command: [ "sh", "-c", "while true; do echo $(hostname) v1 > /data/index.html; sleep 60; done" ]
+        env:
+          - name: ENV_VAR1
+            value: value_1
         volumeMounts:
         - name: content
           mountPath: /data
