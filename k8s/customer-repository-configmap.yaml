@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: customer-repository-configmap
 data:
-  key11: 'value22222'
-  kay44: 'otro nuevo valor'
+  key11: 'value11111'
+  kay55: 'otro nuevo valor'
 
