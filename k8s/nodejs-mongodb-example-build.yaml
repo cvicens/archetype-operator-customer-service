@@ -2,7 +2,7 @@ apiVersion: build.openshift.io/v1
 kind: BuildConfig
 metadata:
   annotations:
-    description: Defines how to build the application
+    description: Defines how to build the application.
     template.alpha.openshift.io/wait-for-ready: 'true'
   labels:
     app: nodejs-mongodb-example

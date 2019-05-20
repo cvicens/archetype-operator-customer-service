@@ -2,7 +2,7 @@ apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
   annotations:
-    description: Defines how to deploy the application server
+    description: Defines how to deploy the application server.
     template.alpha.openshift.io/wait-for-ready: 'true'
   labels:
     app: nodejs-mongodb-example

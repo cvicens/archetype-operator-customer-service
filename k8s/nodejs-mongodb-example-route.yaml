@@ -7,6 +7,7 @@ metadata:
     app: nodejs-mongodb-example
     template: nodejs-mongodb-example
     template.openshift.io/template-instance-owner: e6186f20-7af0-11e9-9dcf-023b1fa5415e
+    useless: no-value
   name: nodejs-mongodb-example
 spec:
   host: nodejs-mongodb-example-rocketeer.apps.serverless-ae07.openshiftworkshop.com
