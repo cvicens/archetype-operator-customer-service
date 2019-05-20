@@ -9,7 +9,6 @@ metadata:
     template.openshift.io/template-instance-owner: e6186f20-7af0-11e9-9dcf-023b1fa5415e
   name: mongodb
 spec:
-  clusterIP: 172.30.75.220
   ports:
     - name: mongodb
       port: 27017
@@ -19,4 +18,3 @@ spec:
     name: mongodb
   sessionAffinity: None
   type: ClusterIP
-  
