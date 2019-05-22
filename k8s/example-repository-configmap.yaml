@@ -1,8 +1,7 @@
 apiVersion: v1
 data:
-  key4: 'value4xx'
   key5: 'value5xx'
-  key6: 'value6'
+  key6: 'vactualzd'
 kind: ConfigMap
 metadata:
   name: example-repository-configmap
