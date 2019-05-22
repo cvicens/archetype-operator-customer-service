@@ -2,8 +2,10 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: customer-repository-configmap
+  labels:
+    label1: jajaja
 data:
   key11: 'value11111'
   kay54: 'actualizado'
-  key77: 'nuevo'
+  key77: 'actualizado'
 
