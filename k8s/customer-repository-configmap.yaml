@@ -4,6 +4,6 @@ metadata:
   name: customer-repository-configmap
 data:
   key11: 'value11111'
-  kay54: 'Otro nuevo valor'
-  key66: 'wowowowowowow'
+  kay54: 'actualizado'
+  key77: 'nuevo'
 
