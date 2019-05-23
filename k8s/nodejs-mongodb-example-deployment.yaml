@@ -2,22 +2,23 @@ apiVersion: apps.openshift.io/v1
 kind: DeploymentConfig
 metadata:
   annotations:
-    description: Defines how to deploy the application server.
+    description: Defines how to deploy the application server, juajua
     template.alpha.openshift.io/wait-for-ready: 'true'
   labels:
     app: nodejs-mongodb-example
+    maintainer: carlos
     template: nodejs-mongodb-example
     template.openshift.io/template-instance-owner: e6186f20-7af0-11e9-9dcf-023b1fa5415e
   name: nodejs-mongodb-example
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 10
   selector:
     name: nodejs-mongodb-example
   strategy:
     activeDeadlineSeconds: 21600
     recreateParams:
-      timeoutSeconds: 600
+      timeoutSeconds: 500
     resources: {}
     type: Recreate
   template:
