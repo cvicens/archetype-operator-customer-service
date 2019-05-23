@@ -1,7 +1,10 @@
 apiVersion: v1
 data:
+  key1: 'hey hey hey'
   key5: 'value5xx'
   key6: 'vactualzd'
 kind: ConfigMap
 metadata:
   name: example-repository-configmap
+  labels:
+    app: 'my-app-is-cool'
