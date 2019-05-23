@@ -2,11 +2,13 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: deployment-demo
+  labels:
+    app: deployment-demo
 spec:
   selector:
     matchLabels:
       demo: deployment
-  replicas: 3
+  replicas: 2
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -15,6 +17,7 @@ spec:
   template:
     metadata:
       labels:
+        app: deployment-demo
         demo: deployment
         version: v1
     spec:
