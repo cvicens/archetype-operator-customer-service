@@ -6,7 +6,7 @@ metadata:
     template.alpha.openshift.io/wait-for-ready: 'true'
   labels:
     app: nodejs-mongodb-example
-    maintainer: carlos
+    maintainer: cvicensa
     template: nodejs-mongodb-example
     template.openshift.io/template-instance-owner: e6186f20-7af0-11e9-9dcf-023b1fa5415e
   name: nodejs-mongodb-example
