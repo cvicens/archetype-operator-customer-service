@@ -3,9 +3,8 @@ kind: ConfigMap
 metadata:
   name: customer-repository-configmap
   labels:
-    label1: jajaja
-    label2: jejeje
+    label1: jajaja1
+    label2: jejeje2
 data:
-  key10: 'new'
-  key67: '67 updated again'
+  key10: 'newX'
   key70: 'updated'
